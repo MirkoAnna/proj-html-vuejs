@@ -19,7 +19,7 @@
 <script>
 export default {
     name: 'MenuFooter',
-    props: ["title", "items", "icons"]
+    props: ["title", "items"]
 }
 </script>
 

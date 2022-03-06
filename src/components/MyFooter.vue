@@ -6,7 +6,7 @@
 
         <div class="menu-container">
 
-            <MenuFooter title="Contact Us" :items="contactUs" :icons="icon"/>
+            <MenuFooter title="Contact Us" :items="contactUs"/>
             <MenuFooter title="Support US" :items="supportUs"/>
             <MenuFooter title="Explore" :items="explore"/>
             <MenuFooter title="Visit" :items="visit"/>
