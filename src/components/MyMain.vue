@@ -1,12 +1,16 @@
 <template>
     <div class="container">
-        
+            <ImagesSection />
     </div>
 </template>
 
 <script>
+import ImagesSection from './partials/Main/ImagesSection.vue';
 export default {
-    name: 'MyMain'
+    name: 'MyMain',
+    components: {
+        ImagesSection
+    }
 }
 </script>
 
