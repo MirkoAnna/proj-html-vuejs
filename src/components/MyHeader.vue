@@ -1,6 +1,6 @@
 <template>
     <div>
-        <MyNav/>
+        <MyNav :links="links"/>
         <MyJumbotron/>
     </div>
 </template>
@@ -14,8 +14,33 @@ export default {
     components: {
         MyNav,
         MyJumbotron
+    },
+    data() {
+        return {
+            links: [
+                {
+                    text: 'Home',
+                    url: '#'                    
+                },
+                {
+                    text: 'About',
+                    url: '#'
+                },
+                {
+                    text: 'Academics',
+                    url: '#'
+                },
+                {
+                    text: 'Courses',
+                    url: '#'
+                },
+                {
+                    text: 'News',
+                    url: '#'
+                }
+            ],
+        }
     }
-    
 }
 </script>
 

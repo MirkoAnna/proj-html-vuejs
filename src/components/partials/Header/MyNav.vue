@@ -7,7 +7,7 @@
 
         <ul>
             <li v-for="(link, index) in links" :key="index">
-                <a href="#">{{link.text}}</a>
+                <a :href="link.url">{{link.text}}</a>
             </li>
         </ul>
 
@@ -17,31 +17,8 @@
 <script>
 export default {
     name: 'MyNav',
-    data() {
-        return {
-            links: [
-                {
-                    text: 'Home',
-                    url: '#'                    
-                },
-                {
-                    text: 'About',
-                    url: '#'
-                },
-                {
-                    text: 'Academics',
-                    url: '#'
-                },
-                {
-                    text: 'Courses',
-                    url: '#'
-                },
-                {
-                    text: 'News',
-                    url: '#'
-                }
-            ],
-        }
+    props: {
+        "links": Object
     }
 }
 </script>
