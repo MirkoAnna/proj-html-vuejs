@@ -44,6 +44,10 @@ export default {
                         text-decoration: none;
                         color: $footerText;
 
+                        &:hover {
+                            text-decoration: underline;
+                        }
+
                         i {
                             margin-right: 4%;
                         }

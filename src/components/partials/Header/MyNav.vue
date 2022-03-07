@@ -1,6 +1,5 @@
 <template>
     <nav>
-
         <div class="logo">
             <img src="../../../assets/img/Logo.jpg" alt="">
         </div>
@@ -10,7 +9,6 @@
                 <a :href="link.url">{{link.text}}</a>
             </li>
         </ul>
-
     </nav>
 </template>
 

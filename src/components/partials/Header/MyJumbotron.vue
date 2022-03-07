@@ -21,7 +21,6 @@ export default {
 @import '../../../assets/style/variables.scss';
 
     .jumbotron {
-            // position: relative;
             width: 100%;
             height: 100vh;
             background-repeat: no-repeat;

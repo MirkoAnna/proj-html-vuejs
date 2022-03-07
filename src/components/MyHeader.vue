@@ -24,7 +24,7 @@ export default {
                 },
                 {
                     text: 'About',
-                    url: '#'
+                    url: '#About'
                 },
                 {
                     text: 'Academics',
