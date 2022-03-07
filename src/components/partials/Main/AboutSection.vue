@@ -78,12 +78,12 @@ export default {
 
 <style lang="scss" scoped>
     .about-container {
+        margin: 2% 0;
         width: 60%;
         height: 75vh;
         text-align: center;
 
         h2 {
-            margin: 2% 0;
             line-height: 1.5;
             font-size: 165%;
         }
@@ -137,6 +137,7 @@ export default {
                     align-items: center;
                     width: 40%;
                     height: 100%;
+                    font-size: 120%;
                     background-repeat: no-repeat;
                     background-size: contain;
                     background-position: center;

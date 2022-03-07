@@ -35,7 +35,7 @@ export default {
 <style lang="scss" scoped>
     .list-images-container {
         width: 100%;
-        height: 35vh;
+        height: 33vh;
         ul {
             display: flex;
             height: 100%;

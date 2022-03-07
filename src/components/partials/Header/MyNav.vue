@@ -31,6 +31,7 @@ export default {
         width: 99%;
         height: 8vh;
         background-color: white;
+        z-index: 1;
         ul {
             display: flex;
             width: 40%;

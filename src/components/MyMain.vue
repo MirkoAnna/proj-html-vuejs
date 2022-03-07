@@ -1,17 +1,25 @@
 <template>
     <div class="main-container">
         <AboutSection />
+
+        <CoursesSection/>
+        
         <ImagesSection />
     </div>
 </template>
 
 <script>
 import AboutSection from './partials/Main/AboutSection.vue';
+
+import CoursesSection from './partials/Main/CoursesSection.vue';
+
 import ImagesSection from './partials/Main/ImagesSection.vue';
+
 export default {
     name: 'MyMain',
     components: {
         AboutSection,
+        CoursesSection,
         ImagesSection
     }
 }
