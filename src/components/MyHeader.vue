@@ -28,15 +28,15 @@ export default {
                 },
                 {
                     text: 'Academics',
-                    url: '#'
+                    url: '#Academics'
                 },
                 {
                     text: 'Courses',
-                    url: '#'
+                    url: '#Courses'
                 },
                 {
                     text: 'News',
-                    url: '#'
+                    url: '#News'
                 }
             ],
         }

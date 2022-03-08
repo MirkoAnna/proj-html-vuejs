@@ -3,6 +3,8 @@
         <AboutSection />
 
         <CoursesSection/>
+
+        <AcademicsSection />
         
         <ImagesSection />
     </div>
@@ -13,6 +15,8 @@ import AboutSection from './partials/Main/AboutSection.vue';
 
 import CoursesSection from './partials/Main/CoursesSection.vue';
 
+import AcademicsSection from './partials/Main/AcademicsSection.vue';
+
 import ImagesSection from './partials/Main/ImagesSection.vue';
 
 export default {
@@ -20,6 +24,7 @@ export default {
     components: {
         AboutSection,
         CoursesSection,
+        AcademicsSection,
         ImagesSection
     }
 }

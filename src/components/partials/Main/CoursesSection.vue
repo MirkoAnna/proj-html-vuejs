@@ -1,5 +1,6 @@
 <template>
     <div class="courses-container">
+        <a name="Courses"></a>
         <div class="title-text">
             <h2>Recent Courses</h2>
             <p>Wether you're considering a foundation course or an undergraduate degree master's or a PhD, academics is a place where students thrive.</p>
@@ -91,6 +92,11 @@ export default {
                     font-size: 87%;
                     list-style: none;
                     box-shadow: 0px 5px 5px 5px rgb(240, 240, 240);
+
+                    &:hover {
+                        scale: 1.1;
+                        cursor: pointer;
+                    }
 
                     .course-image {
                         width: 100%;
